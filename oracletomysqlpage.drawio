@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T12:20:31.672Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="1Zj_8ch1AgX7_ZlJdWQP" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-27T12:40:10.399Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="acQLW_YdW6C0Pw2TXrqi" version="21.6.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -82,13 +82,13 @@
         <mxCell id="KmMgNe_ebJJ4FjFBBe-A-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-12" target="KmMgNe_ebJJ4FjFBBe-A-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-12" value="从right属性中获取rownum的值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-12" value="从right属性中获取rownum的值赋值给变量rownum" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="1930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KmMgNe_ebJJ4FjFBBe-A-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-13" target="KmMgNe_ebJJ4FjFBBe-A-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-13" value="从left属性中获取字段名称" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-13" value="从left属性中获取字段名称并赋值给变量ident" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="2080" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KmMgNe_ebJJ4FjFBBe-A-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-14" target="KmMgNe_ebJJ4FjFBBe-A-15">
@@ -106,6 +106,33 @@
             <mxPoint x="330" y="260" as="sourcePoint" />
             <mxPoint x="380" y="310" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-29" value="query属性是否是SQLSelectQueryBlock类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="145" y="2630" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-30" value="获取select属性的query属性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="2490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-31" value="把query属性强制转型为SQLSelectQueryBlock类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="2850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-32" value="获取SQLSelectQueryBlock的where属性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="2980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-35" value="where属性是否是SQLBinaryOpExpr类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="145" y="3130" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-36" value="把where属性强制转型为SQLBinaryOpExpr类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="3360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-37" value="获取SQLSelectQueryBlock的selectList属性也就是所有的查询结果字段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="3520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-38" value="循环读取selectList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="3660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-40" value="selectList中是否有一个字段的名称是rownum并且这个字段的别名与最外层的where条件的左边的字段名称相同" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="3800" width="140" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
