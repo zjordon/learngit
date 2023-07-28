@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-27T12:40:10.399Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="acQLW_YdW6C0Pw2TXrqi" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-28T09:25:50.493Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="PAte6NxOoCs85FK0q8Mk" version="21.6.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -19,119 +19,146 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="OracleSelectQueryBlock的父对象是否是SQLSelect" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="170" y="170" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-0" value="获取父对象SQLSelect" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-0" value="获取父对象SQLSelect" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-1" target="KmMgNe_ebJJ4FjFBBe-A-3">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-1" target="KmMgNe_ebJJ4FjFBBe-A-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-1" value="SQLSelect的父对象是否是SQLSelectStatement" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-1" value="SQLSelect的父对象是否是SQLSelectStatement" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="167.5" y="420" width="105" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-2" value="SQLSelect的父对象是否是SQLSubqueryTableSource" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-2" value="SQLSelect的父对象是否是SQLSubqueryTableSource" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="380" y="427.5" width="100" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-3" target="KmMgNe_ebJJ4FjFBBe-A-5">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-3" target="KmMgNe_ebJJ4FjFBBe-A-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-3" value="获取OracleSelectQueryBlock的where属性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-3" value="获取OracleSelectQueryBlock的where属性" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-5" target="KmMgNe_ebJJ4FjFBBe-A-6">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-5" target="KmMgNe_ebJJ4FjFBBe-A-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-5" value="where属性的类型是否是SQLBinaryOpExpr" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-5" value="where属性的类型是否是SQLBinaryOpExpr" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="150" y="750" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-6" target="KmMgNe_ebJJ4FjFBBe-A-7">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-6" target="KmMgNe_ebJJ4FjFBBe-A-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-6" value="获取OracleSelectQueryBlock的from属性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-6" value="获取OracleSelectQueryBlock的from属性" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="950" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-7" target="KmMgNe_ebJJ4FjFBBe-A-8">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-7" target="KmMgNe_ebJJ4FjFBBe-A-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-7" value="from属性的类型是否是SQLSubqueryTableSource" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-7" value="from属性的类型是否是SQLSubqueryTableSource" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="150" y="1100" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-8" target="KmMgNe_ebJJ4FjFBBe-A-9">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-8" target="KmMgNe_ebJJ4FjFBBe-A-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-8" value="获取where属性的right属性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-8" value="获取where属性的right属性" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-9" target="KmMgNe_ebJJ4FjFBBe-A-10">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-9" target="KmMgNe_ebJJ4FjFBBe-A-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-9" value="right属性是否是数字（包括数字的加减乘除操作）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-9" value="right属性是否是数字（包括数字的加减乘除操作）" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="150" y="1450" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-10" target="KmMgNe_ebJJ4FjFBBe-A-11">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-10" target="KmMgNe_ebJJ4FjFBBe-A-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-10" value="获取where属性的left属性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-10" value="获取where属性的left属性" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="1650" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-11" target="KmMgNe_ebJJ4FjFBBe-A-12">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-11" target="KmMgNe_ebJJ4FjFBBe-A-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-11" value="left属性是否是SQLIdentifierExpr类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-11" value="left属性是否是SQLIdentifierExpr类型" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="155" y="1760" width="130" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-12" target="KmMgNe_ebJJ4FjFBBe-A-13">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-12" target="KmMgNe_ebJJ4FjFBBe-A-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-12" value="从right属性中获取rownum的值赋值给变量rownum" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-12" value="从right属性中获取rownum的值赋值给变量rownum" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="1930" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-13" target="KmMgNe_ebJJ4FjFBBe-A-14">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-13" target="KmMgNe_ebJJ4FjFBBe-A-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-13" value="从left属性中获取字段名称并赋值给变量ident" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-13" value="从left属性中获取字段名称并赋值给变量ident" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="2080" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-14" target="KmMgNe_ebJJ4FjFBBe-A-15">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-14" target="KmMgNe_ebJJ4FjFBBe-A-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-14" value="获取OracleSelectQueryBlock的from属性并强制转型为SQLSubqueryTableSource" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-14" value="获取OracleSelectQueryBlock的from属性并强制转型为SQLSubqueryTableSource" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="2220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-15" value="获取SQLSubqueryTableSource的select属性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y7Y6VnSNE5N8KsUqxarE-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-15" target="KmMgNe_ebJJ4FjFBBe-A-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-15" value="获取SQLSubqueryTableSource的select属性" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="2341" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-16" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-0" target="KmMgNe_ebJJ4FjFBBe-A-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-16" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-0" target="KmMgNe_ebJJ4FjFBBe-A-1" edge="1">
           <mxGeometry y="20" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="330" y="260" as="sourcePoint" />
             <mxPoint x="380" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-29" value="query属性是否是SQLSelectQueryBlock类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y7Y6VnSNE5N8KsUqxarE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-29" target="KmMgNe_ebJJ4FjFBBe-A-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-29" value="query属性是否是SQLSelectQueryBlock类型" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="145" y="2630" width="150" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-30" value="获取select属性的query属性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y7Y6VnSNE5N8KsUqxarE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-30" target="KmMgNe_ebJJ4FjFBBe-A-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-30" value="获取select属性的query属性" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="2490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-31" value="把query属性强制转型为SQLSelectQueryBlock类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y7Y6VnSNE5N8KsUqxarE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-31" target="KmMgNe_ebJJ4FjFBBe-A-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-31" value="把query属性强制转型为SQLSelectQueryBlock类型" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="2850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-32" value="获取SQLSelectQueryBlock的where属性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y7Y6VnSNE5N8KsUqxarE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-32" target="KmMgNe_ebJJ4FjFBBe-A-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-32" value="获取SQLSelectQueryBlock的where属性" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="2980" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-35" value="where属性是否是SQLBinaryOpExpr类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y7Y6VnSNE5N8KsUqxarE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-35" target="KmMgNe_ebJJ4FjFBBe-A-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-35" value="where属性是否是SQLBinaryOpExpr类型" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="145" y="3130" width="150" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-36" value="把where属性强制转型为SQLBinaryOpExpr类型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y7Y6VnSNE5N8KsUqxarE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-36" target="KmMgNe_ebJJ4FjFBBe-A-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-36" value="把where属性强制转型为SQLBinaryOpExpr类型" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="3360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-37" value="获取SQLSelectQueryBlock的selectList属性也就是所有的查询结果字段" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y7Y6VnSNE5N8KsUqxarE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-37" target="KmMgNe_ebJJ4FjFBBe-A-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-37" value="获取SQLSelectQueryBlock的selectList属性也就是所有的查询结果字段" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="3520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-38" value="循环读取selectList" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Y7Y6VnSNE5N8KsUqxarE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KmMgNe_ebJJ4FjFBBe-A-38" target="KmMgNe_ebJJ4FjFBBe-A-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-38" value="循环读取selectList" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="3660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-40" value="selectList中是否有一个字段的名称是rownum并且这个字段的别名与最外层的where条件的左边的字段名称相同" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="KmMgNe_ebJJ4FjFBBe-A-40" value="selectList中是否有一个字段的名称是rownum并且这个字段的别名与最外层的where条件的左边的字段名称相同" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="150" y="3800" width="140" height="130" as="geometry" />
         </mxCell>
       </root>
