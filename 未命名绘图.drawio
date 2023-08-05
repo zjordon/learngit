@@ -1,9 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T02:09:15.893Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" version="21.6.6" etag="ygyos4MO_wF9IuJfP7-0" type="github">
-  <diagram name="第 1 页" id="iS9p4aM6G4LNWK-n7UI4">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-08-05T02:23:00.520Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="Lpyf4w3Zgl7V_sXodajv" version="21.6.6" type="github" pages="2">
+  <diagram name="计算某个的补贴" id="iS9p4aM6G4LNWK-n7UI4">
+    <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ilqu17IPZ1YNnpWqh4vn-1" target="ilqu17IPZ1YNnpWqh4vn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-1" value="取出某人的所有考勤记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ilqu17IPZ1YNnpWqh4vn-2" target="ilqu17IPZ1YNnpWqh4vn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-2" value="循环读取每条记录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ilqu17IPZ1YNnpWqh4vn-3" target="ilqu17IPZ1YNnpWqh4vn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ilqu17IPZ1YNnpWqh4vn-3" target="ilqu17IPZ1YNnpWqh4vn-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-3" value="是否节假日" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ilqu17IPZ1YNnpWqh4vn-4" target="ilqu17IPZ1YNnpWqh4vn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-4" value="下班时间是否超过20点" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ilqu17IPZ1YNnpWqh4vn-5" target="ilqu17IPZ1YNnpWqh4vn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-5" value="总时长是否超过10小时" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-6" value="获取超过19点的小时数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ilqu17IPZ1YNnpWqh4vn-12" target="ilqu17IPZ1YNnpWqh4vn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-12" value="总时长是否超过4小时" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ilqu17IPZ1YNnpWqh4vn-13" target="ilqu17IPZ1YNnpWqh4vn-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ilqu17IPZ1YNnpWqh4vn-13" target="ilqu17IPZ1YNnpWqh4vn-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-13" value="总时长是否超过8小时" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-16" value="按一天算补贴" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ilqu17IPZ1YNnpWqh4vn-17" value="按半天算补贴" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TIqmkEKNKMjPgMDXcX8w" name="统计所有人的补贴">
+    <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OSJKPv7Sq10TuO7e_GsK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OSJKPv7Sq10TuO7e_GsK-1" target="OSJKPv7Sq10TuO7e_GsK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJKPv7Sq10TuO7e_GsK-1" value="按照模板创建一个包含在名单列表中的人的补贴表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJKPv7Sq10TuO7e_GsK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OSJKPv7Sq10TuO7e_GsK-2" target="OSJKPv7Sq10TuO7e_GsK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJKPv7Sq10TuO7e_GsK-2" value="循环读取名单列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OSJKPv7Sq10TuO7e_GsK-3" value="计算某个人的补贴" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
